@@ -1,0 +1,50 @@
+﻿Сборка начата 28.12.2022 4:29:27.
+Уровень детализации журнала: Normal.     1>Проект "G:\Предметы\2022-23\1 семестр\ТРПО\Проект\Logik_Egor_project_TRPO\Logik_Egor_project_TRPO\Logik_Egor_project_TRPO.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Logik_Eg.5ee8bc0b.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         P:\Visual Studio Professional 2019\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Предметы\2022-23\1 семестр\ТРПО\Проект\Logik_Egor_project_TRPO\Debug\Logik_Egor_project_TRPO.exe" /INCREMENTAL /ILK:"Debug\Logik_Egor_project_TRPO.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Предметы\2022-23\1 семестр\ТРПО\Проект\Logik_Egor_project_TRPO\Debug\Logik_Egor_project_TRPO.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Предметы\2022-23\1 семестр\ТРПО\Проект\Logik_Egor_project_TRPO\Debug\Logik_Egor_project_TRPO.lib" /MACHINE:X86 Debug\Black.obj
+         Debug\Game.obj
+         Debug\Source.obj
+         Debug\White.obj
+     1>Source.obj : error LNK2005: "int * * __cdecl go(int * *,int,int,int,int)" (?go@@YAPAPAHPAPAHHHHH@Z) уже определен в Game.obj
+     1>Source.obj : error LNK2005: "int __cdecl proverka_fers_black(int * *,int,int,int,int)" (?proverka_fers_black@@YAHPAPAHHHHH@Z) уже определен в Black.obj
+     1>Source.obj : error LNK2005: "int __cdecl proverka_khon_black(int * *,int,int,int,int)" (?proverka_khon_black@@YAHPAPAHHHHH@Z) уже определен в Black.obj
+     1>Source.obj : error LNK2005: "int __cdecl proverka_korol_black(int * *,int,int,int,int)" (?proverka_korol_black@@YAHPAPAHHHHH@Z) уже определен в Black.obj
+     1>Source.obj : error LNK2005: "int __cdecl proverka_ladii_black(int * *,int,int,int,int)" (?proverka_ladii_black@@YAHPAPAHHHHH@Z) уже определен в Black.obj
+     1>Source.obj : error LNK2005: "int __cdecl proverka_peshki_black(int * *,int,int,int,int)" (?proverka_peshki_black@@YAHPAPAHHHHH@Z) уже определен в Black.obj
+     1>Source.obj : error LNK2005: "int __cdecl proverka_slon_black(int * *,int,int,int,int)" (?proverka_slon_black@@YAHPAPAHHHHH@Z) уже определен в Black.obj
+     1>White.obj : error LNK2005: "int __cdecl proverka_fers_white(int * *,int,int,int,int)" (?proverka_fers_white@@YAHPAPAHHHHH@Z) уже определен в Source.obj
+     1>White.obj : error LNK2005: "int __cdecl proverka_khon_white(int * *,int,int,int,int)" (?proverka_khon_white@@YAHPAPAHHHHH@Z) уже определен в Source.obj
+     1>White.obj : error LNK2005: "int __cdecl proverka_korol_white(int * *,int,int,int,int)" (?proverka_korol_white@@YAHPAPAHHHHH@Z) уже определен в Source.obj
+     1>White.obj : error LNK2005: "int __cdecl proverka_ladii_white(int * *,int,int,int,int)" (?proverka_ladii_white@@YAHPAPAHHHHH@Z) уже определен в Source.obj
+     1>White.obj : error LNK2005: "int __cdecl proverka_peshki_white(int * *,int,int,int,int)" (?proverka_peshki_white@@YAHPAPAHHHHH@Z) уже определен в Source.obj
+     1>White.obj : error LNK2005: "int __cdecl proverka_slon_white(int * *,int,int,int,int)" (?proverka_slon_white@@YAHPAPAHHHHH@Z) уже определен в Source.obj
+     1>G:\Предметы\2022-23\1 семестр\ТРПО\Проект\Logik_Egor_project_TRPO\Debug\Logik_Egor_project_TRPO.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
+     1>Сборка проекта "G:\Предметы\2022-23\1 семестр\ТРПО\Проект\Logik_Egor_project_TRPO\Logik_Egor_project_TRPO\Logik_Egor_project_TRPO.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "G:\Предметы\2022-23\1 семестр\ТРПО\Проект\Logik_Egor_project_TRPO\Logik_Egor_project_TRPO\Logik_Egor_project_TRPO.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         Source.obj : error LNK2005: "int * * __cdecl go(int * *,int,int,int,int)" (?go@@YAPAPAHPAPAHHHHH@Z) уже определен в Game.obj
+         Source.obj : error LNK2005: "int __cdecl proverka_fers_black(int * *,int,int,int,int)" (?proverka_fers_black@@YAHPAPAHHHHH@Z) уже определен в Black.obj
+         Source.obj : error LNK2005: "int __cdecl proverka_khon_black(int * *,int,int,int,int)" (?proverka_khon_black@@YAHPAPAHHHHH@Z) уже определен в Black.obj
+         Source.obj : error LNK2005: "int __cdecl proverka_korol_black(int * *,int,int,int,int)" (?proverka_korol_black@@YAHPAPAHHHHH@Z) уже определен в Black.obj
+         Source.obj : error LNK2005: "int __cdecl proverka_ladii_black(int * *,int,int,int,int)" (?proverka_ladii_black@@YAHPAPAHHHHH@Z) уже определен в Black.obj
+         Source.obj : error LNK2005: "int __cdecl proverka_peshki_black(int * *,int,int,int,int)" (?proverka_peshki_black@@YAHPAPAHHHHH@Z) уже определен в Black.obj
+         Source.obj : error LNK2005: "int __cdecl proverka_slon_black(int * *,int,int,int,int)" (?proverka_slon_black@@YAHPAPAHHHHH@Z) уже определен в Black.obj
+         White.obj : error LNK2005: "int __cdecl proverka_fers_white(int * *,int,int,int,int)" (?proverka_fers_white@@YAHPAPAHHHHH@Z) уже определен в Source.obj
+         White.obj : error LNK2005: "int __cdecl proverka_khon_white(int * *,int,int,int,int)" (?proverka_khon_white@@YAHPAPAHHHHH@Z) уже определен в Source.obj
+         White.obj : error LNK2005: "int __cdecl proverka_korol_white(int * *,int,int,int,int)" (?proverka_korol_white@@YAHPAPAHHHHH@Z) уже определен в Source.obj
+         White.obj : error LNK2005: "int __cdecl proverka_ladii_white(int * *,int,int,int,int)" (?proverka_ladii_white@@YAHPAPAHHHHH@Z) уже определен в Source.obj
+         White.obj : error LNK2005: "int __cdecl proverka_peshki_white(int * *,int,int,int,int)" (?proverka_peshki_white@@YAHPAPAHHHHH@Z) уже определен в Source.obj
+         White.obj : error LNK2005: "int __cdecl proverka_slon_white(int * *,int,int,int,int)" (?proverka_slon_white@@YAHPAPAHHHHH@Z) уже определен в Source.obj
+         G:\Предметы\2022-23\1 семестр\ТРПО\Проект\Logik_Egor_project_TRPO\Debug\Logik_Egor_project_TRPO.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
+
+    Предупреждений: 0
+    Ошибок: 14
+
+Прошло времени 00:00:00.30
