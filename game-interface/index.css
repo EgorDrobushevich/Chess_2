@@ -1,0 +1,192 @@
+.log {
+    border-radius: 20px;
+    display:flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+}
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff1e1;
+    font-family: "Arial Black";
+
+}
+h1 {
+    color: #fff1e1;
+    font-family: "Arial Black";
+    text-shadow: 0px 0px 1px #fff1e1;
+}
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #1d3c45;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+main {
+
+    width: 50%;
+    height: 100%;
+    color: #fff1e1;
+    font-family: "Arial Black";
+
+}
+aside {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    font-family: "Arial Black";
+
+}
+
+.chess_table {
+    transition: 0.5s;
+    display: grid;
+    grid-template-rows: 1fr repeat(8, 3fr) 1fr;
+    grid-template-columns: 1fr repeat(8, 3fr) 1fr;
+    min-width: 400px;
+    min-height: 400px;
+    height: 100vw;
+    width: 100vw;
+}
+
+.odd-row-cell:nth-child(odd) {
+    background-color: #d2601a;
+}
+.odd-row-cell:nth-child(even) {
+    background-color: #fff1e1;
+}
+
+.even-row-cell:nth-child(even) {
+    background-color: #d2601a;
+}
+.even-row-cell:nth-child(odd) {
+    background-color: #fff1e1;
+}
+.note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d3c45;
+}
+
+button {
+    width: 30%;
+    height: 50px;
+    background: #1d3c45;
+    border: none;
+    color: #fff1e1;
+    font-family: "Arial Black";
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px rgba(255, 241, 225, 0.73) solid;
+    z-index:  2;
+}
+button:hover {
+    border: 2px #fff1e1 solid;
+    background: #1d3c45;
+}
+.timer {
+    margin: auto;
+    font-size: xxx-large;
+    font-family: "Book Antiqua";
+    color: #1d3c45;
+}
+
+.figure{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.white-pawn-figure{
+    background-image: url("resources/white-pawn1.png") !important;
+}
+.black-pawn-figure {
+    background-image: url("resources/black-pawn.png") !important;
+}
+.white-rook-figure {
+    background-image: url("resources/white-rook.png") !important;
+}
+.black-rook-figure {
+    background-image: url("resources/black-rook.png") !important;
+}
+.white-knight-figure {
+    background-image: url("resources/white-knight.png") !important;
+}
+.black-knight-figure {
+    background-image: url("resources/black-knight.png") !important;
+}
+.white-bishop-figure {
+    background-image: url("resources/white-bishop.png") !important;
+}
+.black-bishop-figure {
+    background-image: url("resources/black-bishop.png") !important;
+}
+.white-queen-figure {
+    background-image: url("resources/white-queen.png") !important;
+}
+.black-queen-figure {
+    background-image: url("resources/black-queen.png") !important;
+}
+.white-king-figure {
+    background-image: url("resources/white-king.png") !important;
+}
+.black-king-figure {
+    background-image: url("resources/black-king.png") !important;
+}
+
+.cell-highlighted{
+    box-shadow: 0 0 15px black inset;
+}
+
+.figure-cell-highlighted{
+    transform: scale(120%);
+    animation-name: pulse;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    z-index: 2;
+    box-shadow: 0 0 10px black;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(110%);
+    }
+
+    to {
+        transform: scale(120%);
+    }
+}
+
+.right-markup {
+    transform: rotate(180deg);
+    margin: 0px;
+}
+
+.figure-rotate{
+    transform: rotate(180deg);
+}
+
+li {
+    list-style: none;
+    color: #fff1e1;
+    font-family: "Arial Black";
+}
+ul {
+    padding-left: 0px;
+    font-size: small;
+    margin: 5px;
+
+}

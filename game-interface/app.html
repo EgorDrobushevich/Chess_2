@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess Field</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+    <main class="chess_table" id = "chess-table">
+        <div class="note">
+        </div>
+        <div class="note">
+            <p class="right-markup">A</p>
+        </div>
+        <div class="note">
+            <p class="right-markup">B</p>
+        </div>
+        <div class="note">
+            <p class="right-markup">C</p>
+        </div>
+        <div class="note">
+            <p class="right-markup">D</p>
+        </div>
+        <div class="note">
+            <p class="right-markup">E</p>
+        </div>
+        <div class="note">
+            <p class="right-markup">F</p>
+        </div>
+        <div class="note">
+            <p class="right-markup">G</p>
+        </div>
+        <div class="note">
+            <p class="right-markup"> H</p>
+        </div>
+        <div class="note">
+
+        </div>
+        <div class="note">
+            8
+        </div>
+        <div class="odd-row-cell cell" id="0" onclick="cellSelect(0)">
+        </div>
+        <div class="odd-row-cell cell" id="1" onclick="cellSelect(1)">
+        </div>
+        <div class="odd-row-cell cell" id="2" onclick="cellSelect(2)">
+        </div>
+        <div class="odd-row-cell cell" id="3" onclick="cellSelect(3)">
+        </div>
+        <div class="odd-row-cell cell" id="4" onclick="cellSelect(4)">
+        </div>
+        <div class="odd-row-cell cell" id="5" onclick="cellSelect(5)">
+        </div>
+        <div class="odd-row-cell cell" id="6" onclick="cellSelect(6)">
+        </div>
+        <div class="odd-row-cell cell" id="7" onclick="cellSelect(7)">
+        </div>
+        <div class="note"><p class="right-markup"> 8</p></div>
+        <div class="note">
+            7
+        </div>
+        <div class="even-row-cell cell" id="8" onclick="cellSelect(8)" value="7">
+        </div>
+        <div class="even-row-cell cell" id="9" onclick="cellSelect(9)" value="7">
+        </div>
+        <div class="even-row-cell cell" id="10" onclick="cellSelect(10)" value="7">
+        </div>
+        <div class="even-row-cell cell" id="11" onclick="cellSelect(11)" value="7">
+        </div>
+        <div class="even-row-cell cell" id="12" onclick="cellSelect(12)" value="7">
+        </div>
+        <div class="even-row-cell cell" id="13" onclick="cellSelect(13)" value="7">
+        </div>
+        <div class="even-row-cell cell" id="14" onclick="cellSelect(14)" value="7">
+        </div>
+        <div class="even-row-cell cell" id="15" onclick="cellSelect(15)" value="7">
+        </div>
+        <div class="note"><p class="right-markup"> 7</p></div>
+        <div class="note">
+            6
+        </div>
+        <div class="odd-row-cell cell" id="16" onclick="cellSelect(16)">
+        </div>
+        <div class="odd-row-cell cell" id="17" onclick="cellSelect(17)">
+        </div>
+        <div class="odd-row-cell cell" id="18" onclick="cellSelect(18)">
+        </div>
+        <div class="odd-row-cell cell" id="19" onclick="cellSelect(19)">
+        </div>
+        <div class="odd-row-cell cell" id="20" onclick="cellSelect(20)">
+        </div>
+        <div class="odd-row-cell cell" id="21" onclick="cellSelect(21)">
+        </div>
+        <div class="odd-row-cell cell" id="22" onclick="cellSelect(22)">
+        </div>
+        <div class="odd-row-cell cell" id="23" onclick="cellSelect(23)">
+        </div>
+        <div class="note"><p class="right-markup"> 6 </p></div>
+        <div class="note">
+            5
+        </div>
+        <div class="even-row-cell cell" id="24" onclick="cellSelect(24)">
+        </div>
+        <div class="even-row-cell cell" id="25" onclick="cellSelect(25)">
+        </div>
+        <div class="even-row-cell cell" id="26" onclick="cellSelect(26)">
+        </div>
+        <div class="even-row-cell cell" id="27" onclick="cellSelect(27)">
+        </div>
+        <div class="even-row-cell cell" id="28" onclick="cellSelect(28)">
+        </div>
+        <div class="even-row-cell cell" id="29" onclick="cellSelect(29)">
+        </div>
+        <div class="even-row-cell cell" id="30" onclick="cellSelect(30)">
+        </div>
+        <div class="even-row-cell cell" id="31" onclick="cellSelect(31)">
+        </div>
+        <div class="note"><p class="right-markup">5 </p></div>
+        <div class="note">
+            4
+        </div>
+        <div class="odd-row-cell cell" id="32" onclick="cellSelect(32)">
+        </div>
+        <div class="odd-row-cell cell" id="33" onclick="cellSelect(33)">
+        </div>
+        <div class="odd-row-cell cell" id="34" onclick="cellSelect(34)">
+        </div>
+        <div class="odd-row-cell cell" id="35" onclick="cellSelect(35)">
+        </div>
+        <div class="odd-row-cell cell" id="36" onclick="cellSelect(36)">
+        </div>
+        <div class="odd-row-cell cell" id="37" onclick="cellSelect(37)">
+        </div>
+        <div class="odd-row-cell cell" id="38" onclick="cellSelect(38)">
+        </div>
+        <div class="odd-row-cell cell" id="39" onclick="cellSelect(39)">
+        </div>
+        <div class="note"><p class="right-markup"> 4</p></div>
+        <div class="note">
+            3
+        </div>
+        <div class="even-row-cell cell" id="40" onclick="cellSelect(40)">
+        </div>
+        <div class="even-row-cell cell" id="41" onclick="cellSelect(41)">
+        </div>
+        <div class="even-row-cell cell" id="42" onclick="cellSelect(42)">
+        </div>
+        <div class="even-row-cell cell" id="43" onclick="cellSelect(43)">
+        </div>
+        <div class="even-row-cell cell" id="44" onclick="cellSelect(44)">
+        </div>
+        <div class="even-row-cell cell" id="45" onclick="cellSelect(45)">
+        </div>
+        <div class="even-row-cell cell" id="46" onclick="cellSelect(46)">
+        </div>
+        <div class="even-row-cell cell" id="47" onclick="cellSelect(47)">
+        </div>
+        <div class="note"><p class="right-markup"> 3</p></div>
+        <div class="note">
+            2
+        </div>
+        <div class="odd-row-cell cell" id="48" onclick="cellSelect(48)" value="1">
+        </div>
+        <div class="odd-row-cell cell" id="49" onclick="cellSelect(49)" value="1">
+        </div>
+        <div class="odd-row-cell cell" id="50" onclick="cellSelect(50)" value="1">
+        </div>
+        <div class="odd-row-cell cell" id="51" onclick="cellSelect(51)" value="1">
+        </div>
+        <div class="odd-row-cell cell" id="52" onclick="cellSelect(52)" value="1">
+        </div>
+        <div class="odd-row-cell cell" id="53" onclick="cellSelect(53)" value="1">
+        </div>
+        <div class="odd-row-cell cell" id="54" onclick="cellSelect(54)" value="1">
+        </div>
+        <div class="odd-row-cell cell" id="55" onclick="cellSelect(55)" value="1">
+        </div>
+        <div class="note"><p class="right-markup">2</p></div>
+        <div class="note">
+            1
+        </div>
+        <div class="even-row-cell cell" id="56" onclick="cellSelect(56)">
+        </div>
+        <div class="even-row-cell cell" id="57" onclick="cellSelect(57)">
+        </div>
+        <div class="even-row-cell cell" id="58" onclick="cellSelect(58)">
+        </div>
+        <div class="even-row-cell cell" id="59" onclick="cellSelect(59)">
+        </div>
+        <div class="even-row-cell cell" id="60" onclick="cellSelect(60)">
+        </div>
+        <div class="even-row-cell cell" id="61" onclick="cellSelect(61)">
+        </div>
+        <div class="even-row-cell cell" id="62" onclick="cellSelect(62)">
+        </div>
+        <div class="even-row-cell cell" id="63" onclick="cellSelect(63)">
+        </div>
+        <div class="note"><p class="right-markup"> 1</p></div>
+        <div class="note">
+        </div>
+        <div class="note">
+            A
+        </div>
+        <div class="note">
+            B
+        </div>
+        <div class="note">
+            C
+        </div>
+        <div class="note">
+            D
+        </div>
+        <div class="note">
+            E
+        </div>
+        <div class="note">
+            F
+        </div>
+        <div class="note">
+            G
+        </div>
+        <div class="note">
+            H
+        </div>
+        <div class="note">
+
+        </div>
+    </main>
+</div>
+<div style="display: flex; justify-content: space-between; margin-top: 10px">
+    <button id="accept">Начать игру</button>
+    <button id="alt-button">Микро Шахматы</button>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
