@@ -1,0 +1,39 @@
+
+table.iksweb{
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+}
+
+table.iksweb td,table.iksweb th {
+	padding: 3px;
+	width: 33%;
+}
+table.iksweb th {
+    background-image: url("images/row.png"); 
+	color: #fff; 
+    font-size: 25px;
+}
+table.iksweb td {
+	color: #505050; 
+    font-size: normal;
+    font-weight:bold;
+}
+img{
+    width: 80%;
+    height: 100%;
+}
+#galochka{
+    color:green;
+    font-size: 100px;
+    width: 5%;
+}
+caption{
+    font-size: 100px;
+    font-style:italic;
+    color: #505050;
+}
+#one{
+    font-size: 40px;
+}

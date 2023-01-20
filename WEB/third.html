@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Chess</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+    
+    <div class="site-wrap" id="home-section">
+
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+
+
+      <header class="site-navbar site-navbar-target" role="banner">
+
+        <div class="container">
+          <div class="row align-items-center position-relative">
+
+            <div class="col-3 ">
+              <div class="site-logo">
+                <a href="index.html" class="font-weight-bold">
+                  <img src="images/logo.png" alt="Image" class="img-fluid"> 
+                </a>
+                <p>Chess</p>
+              </div>
+            </div>
+
+            <div class="col-9  text-right">
+              
+
+              <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
+
+              
+
+              <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                  <li><a href="first.html" class="nav-link">Главная</a></li>
+                  <li><a href="second.html" class="nav-link">Документация</a></li>
+                  <li class="active"><a href="third.html" class="nav-link">Тестировка</a></li>
+                  <li><a href="fourth.html" class="nav-link">Запуск</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+      </header>
+
+    <div class="ftco-blocks-cover-1">
+      <div class="site-section-cover overlay" style="background-image: url('images/hero_1.jpg')">
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-5" data-aos="fade-up">
+              <h1 class="mb-3 text-white">Тестировка</h1>
+              <p>неотъемлемая часть создания любой программы, она позволяет найти и исправить ошибки в программе, улучшить работу программы</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <table class="iksweb">
+      <tr>
+          
+          <td colspan="3" id="one">
+              <h1 align="center">Основные функции:<br></h1>
+              &mdash; проверить перемешения каждой шахматной фигуры<br>
+              &mdash; возможность бить фигуру оппонента<br>
+              &mdash; проверка стабильности программы<br>
+              &mdash; правильность расположения шахматных фигур<br>
+          </td>
+      </tr>
+      <tr>
+          <th colspan="3">Тестирование шахматной фигуры(пешка)</th>
+      </tr>
+      <tr>
+          <td>Шаги проверки:<br>
+              &mdash;ход пешки на одну клетку<br>
+              &mdash;ход пешки на две клетки<br>
+              &mdash;пешка бьёт фигуру оппонента<br>
+              &mdash;ход пешки на одну клетку вперёд, когда перед ней находиться фигура оппонента<br>
+              &mdash;пешка дошла до конца доски<br>
+          </td>
+          <td>Ожидаемый результат:<br>
+              &mdash;пешка походила на одну клетку и остановилась<br>
+              &mdash;пешка походила на две клетки и оставновилась<br>
+              &mdash;пешка побила фигуру соперника и заняла её позицию<br>
+              &mdash;пешка остановилась перед фигурой соперника<br>
+              &mdash;пешка становится ферзём <br>
+          </td>
+          <td id="galochka">&#10004;</td>
+      </tr>
+      <tr>
+          <th colspan="3">Тестирование шахматной фигуры(ладья)</th>
+      </tr>
+      <tr>
+          <td>Шаги проверки:<br>
+              &mdash;ход ладьи на А8 по пустой прямой<br>
+              &mdash;ход ладьи на А8 при нахождении на прямой(А4) фигуры соперника<br>
+              &mdash;перемещаем ладью на А4, где находится фигура соперника<br>
+              &mdash;ходим по диагонали<br>
+          </td>
+          <td>Ожидаемый результат:<br>
+              &mdash;ладья переместится с А1 на А8<br>
+              &mdash;ладья не походит<br>
+              &mdash;фигура соперника будет сбита<br>
+              &mdash;ладья не походит<br>
+          </td>
+          <td id="galochka">&#10004;</td>
+      </tr>
+      <tr>
+          <th colspan="3">Тестирование шахматной фигуры(конь)</th>
+      </tr>
+      <tr>
+          <td>Шаги проверки:<br>
+              &mdash;конь ходит через свои фигуры буквой "Г", т.е. из B1 в С3 <br>
+              &mdash;конь находясь в клетке С3, собьёт фигуру находящуюся в клетке D5<br>
+              &mdash;конь находясь в клетке С3, ходит в клетку D5 в которой находится фигура<br>
+              &mdash;конь находясь в клетке A2, не может походить налево (т.е. за границу шахматной доски)<br>
+          </td>
+          <td>Ожидаемый результат:<br>
+              &mdash;конь походит и не собьёт свою фигуру<br>
+              &mdash;конь сбил вражескую фигуру<br>
+              &mdash;конь не походит<br>
+              &mdash;конь не походит<br>
+          </td>
+          <td id="galochka">&#10004;</td>
+      </tr>
+      <tr>
+          <th colspan="3">Тестирование шахматной фигуры(слон)</th>
+      </tr>
+      <tr>
+          <td>Шаги проверки:<br>
+              &mdash;походить слоном вперёд из точки С3 в С6<br>
+              &mdash;походить слоном находясь в С3, когда в клектках B2 и D2 стоят фигуры союзника<br>
+              &mdash;слон ходит из С3 в G5, но в точке F4 стоит фигура<br>
+              &mdash;слон ходит из С3 в G5 и в точке G5 стоит вражеская фигура<br>
+          </td>
+          <td>Ожидаемый результат:<br>
+              &mdash;слон не походит<br>
+              &mdash;слон не походит<br>
+              &mdash;слон не походит<br>
+              &mdash;слон собьёт её<br>
+          </td>
+          <td id="galochka">&#10004;</td>
+      </tr>
+      <tr>
+          <th colspan="3">Тестирование шахматной фигуры(ферзь)</th>
+      </tr>
+      <tr>
+          <td>Шаги проверки:<br>
+              &mdash;походить ферзём находясь в D1, когда в клектках C2,D2,E2,E1 и C1 стоят фигуры союзника<br>
+              &mdash;ферзь ходит из D3 в G5, но в точке F4 стоит фигура<br>
+              &mdash;ферзь ходит из D3 в G5 и в точке G5 стоит вражеская фигура<br>
+              &mdash;ход ферзя на D8 по пустой прямой<br>
+              &mdash;ход ферзя на D8 при нахождении на прямой(D4) фигуры соперника<br>
+              &mdash;перемещаем ферзя на D4, где находится фигура соперника<br>
+          </td>
+          <td>Ожидаемый результат:<br>
+              &mdash;ферзь не походит<br>
+              &mdash;ферзь не походит<br>
+              &mdash;ферзь собьёт вражескую фигуру<br>
+              &mdash;ферзь переместится с А1 на А8<br>
+              &mdash;ферзь не походит<br>
+              &mdash;ферзь собьёт вражескую фигуру<br>
+          </td>
+          <td id="galochka">&#10004;</td>
+      </tr>
+      <tr>
+          <th colspan="3">Тестирование шахматной фигуры(король)</th>
+      </tr>
+      <tr>
+          <td>Шаги проверки:<br>
+              &mdash;король находится в E1 и вокруг его свои фигуры<br>
+              &mdash;король находится в E1 и ходишь на E3<br>
+              &mdash;король находится в E1 и ходишь на E2, где находится вражеская фигура<br>
+          </td>
+          <td>Ожидаемый результат:<br>
+              &mdash;король не походит<br>
+              &mdash;король не походит<br>
+              &mdash;король собьёт вражескую фигуру<br>
+          </td>
+          <td id="galochka">&#10004;</td>
+      </tr>
+      <tr>
+          <th colspan="3">Тестирование шахматной фигуры()</th>
+      </tr>
+      <tr>
+          <td>Шаги проверки:</td>
+          <td>Ожидаемый результат:</td>
+          <td id="galochka">&#10004;</td>
+      </tr>
+</table>
+<div class="site-section bg-image overlay" style="background-image: url('images/hero_1.jpg')">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-7 text-center">
+        <h2 class="font-weight-bold text-white">Начните играть в шахматы</h2>
+        <p class="text-white">и вы увидите как поменяеться ваше мышление</p>
+        <p class="mb-0"><a href="#" class="btn btn-primary text-white py-3 px-4">Вернуться вначало</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
+
